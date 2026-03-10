@@ -1,0 +1,12 @@
+================================================================================
+Elaborated Name: 'softdrink'
+    (RTL Design Unit name: 'softdrink', ../rtl/softdrink.v:14)
+     Parameters (Total: 7)
+         IDLE = 0 (default: 3'd0)
+         S1   = 1 (default: 3'd1)
+         S2   = 2 (default: 3'd2)
+         S3   = 3 (default: 3'd3)
+         S4   = 4 (default: 3'd4)
+         S5   = 5 (default: 3'd5)
+         S6   = 6 (default: 3'd6)
+================================================================================

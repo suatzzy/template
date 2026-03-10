@@ -1,0 +1,11 @@
+*design* DebussyLib (btIdent Verdi_T-2022.06)
+Command arguments:
+    +define+verilog
+    -f files.f
+        ../rtl/softdrink.v
+        ../tb/softdrink_tb.v
+
+Highest level modules:
+softdrink_tb
+
+Total	0 error(s),   0 warning(s)

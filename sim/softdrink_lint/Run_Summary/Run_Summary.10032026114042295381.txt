@@ -1,0 +1,15 @@
+Date Created     : 10-03-2026 11:40:42
+SpyGlass Version : SpyGlass_vT-2022.06-1
+Project Name     : softdrink_lint
+Goal Name        : lint/lint_rtl
+Scenario Name    : default_scenario
+Top              : softdrink
+
+Message Summary
+Severity   Non-Waived  Waived
+FATAL           0         0
+ERROR           0         0
+WARNING         0         0
+INFO            2         0
+
+-dashboard_data sync_crossings 
