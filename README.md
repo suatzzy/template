@@ -8,7 +8,7 @@ enter the directory where you want to establish a project:
 
 cd \<your new prject\>
 
-fill in  rtl/ and tb/  with your codes
+fill in  rtl/ and tb/  with your .v and .sv code files
 
 cd sim
 
@@ -22,3 +22,4 @@ make all
 
 make verdi
 
+make clean
