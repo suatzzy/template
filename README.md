@@ -1,8 +1,8 @@
 DO AS FOLLOWING:
 
-modify the absolute paths in mk_ic_proj.sh
+modify the absolute paths of __template__ in mk_ic_proj.sh
 
-enter the directory you want to establish a project:
+enter the directory where you want to establish a project:
 
 \<where mk_ic_proj.sh belongs\>./mk_ic_proj.sh  \<YOUR PROJECT NAME\>
 
