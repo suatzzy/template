@@ -19,13 +19,14 @@ cd "$PROJ_NAME"
 mkdir rtl sim tb
 
 # 在 sim 目录下创建空文件
-touch sim/files.f
 cp /home/jjt/target/frontend_homework/template/sim/Makefile sim/Makefile
 cp /home/jjt/target/frontend_homework/template/sim/novas.rc sim/novas.rc
 cp /home/jjt/target/frontend_homework/template/sim/wave_gen.tcl sim/wave_gen.tcl
 cp /home/jjt/target/frontend_homework/template/sim/sg.tcl sim/sg.tcl
+cp /home/jjt/target/frontend_homework/template/sim/rtl.f sim/rtl.f
+cp /home/jjt/target/frontend_homework/template/sim/files.f sim/files.f
+
 
 
 echo "项目 "$PROJ_NAME" 结构创建完成！"
-tree -L 2
 ls ..

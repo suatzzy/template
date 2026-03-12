@@ -1,0 +1,6 @@
+*.v linguist-language=Verilog
+*.sv linguist-language=SystemVerilog
+
+# 使用 ** 来递归匹配 sim 和 spyglass_lints 目录下的所有子目录及文件
+sim/** linguist-generated=true
+spyglass_lints/** linguist-generated=true

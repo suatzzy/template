@@ -1,7 +1,4 @@
-
-TOP_MODULE = softdrink
-RTL_SRC    = ../rtl/softdrink.v
-
+TOP_MODULE = rd_empty
 
 
 
@@ -9,7 +6,7 @@ RTL_SRC    = ../rtl/softdrink.v
 
 
 
-all:clean lint elab run
+all:clean elab run
 
 elab:
 	vcs -full64 -debug_acc+all -sverilog -l compile.log		\
@@ -22,7 +19,7 @@ verdi:
 	verdi -f files.f -ssf ./dump.fsdb &
 
 lint:
-	TOP_NAME=$(TOP_MODULE) RTL_PATH=$(RTL_SRC) sg_shell -tcl sg.tcl
+	TOP_NAME=$(TOP_MODULE)	 FILELIST_PATH=./rtl.f	 sg_shell -tcl sg.tcl
 
 
 clean:
